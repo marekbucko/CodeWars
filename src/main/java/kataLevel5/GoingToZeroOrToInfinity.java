@@ -1,5 +1,10 @@
 package kataLevel5;
 
+    /*
+    * kata level 5
+    * link: https://www.codewars.com/kata/going-to-zero-or-to-infinity/train/java
+    * */
+
 import java.math.BigDecimal;
 import java.math.MathContext;
 
@@ -14,7 +19,7 @@ public class GoingToZeroOrToInfinity {
         BigDecimal sumOfFactorials = new BigDecimal(0);
         for (int i = 1; i <= n; i++) {
             factorialsToAdd = sumOfFactorials(i, factorialsToAdd);
-            sumOfFactorials=sumOfFactorials.add(factorialsToAdd);
+            sumOfFactorials = sumOfFactorials.add(factorialsToAdd);
         }
 
         return sumOfFactorials;

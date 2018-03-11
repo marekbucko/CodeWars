@@ -1,11 +1,10 @@
 package kataLevel5;
 
+/*
+* kata level 5
+* link: https://www.codewars.com/kata/merged-string-checker/train/java
+* */
 public class MergedStringChecker {
-
-    /*
-    * kata level 5
-    * link: https://www.codewars.com/kata/merged-string-checker/train/java
-    * */
 
     public static boolean isMerge(String s, String part1, String part2) {
         System.out.println(s);

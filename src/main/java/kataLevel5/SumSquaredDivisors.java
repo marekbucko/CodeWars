@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 /*
 * kata level: 5
-* link: https://www.codewars.com/kata/integers-recreation-one/train/java*/
+* link: https://www.codewars.com/kata/integers-recreation-one/train/java
+* */
 
 public class SumSquaredDivisors {
     public static String listSquared(long m, long n) {
