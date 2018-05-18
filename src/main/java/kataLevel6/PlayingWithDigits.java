@@ -21,6 +21,10 @@ public class PlayingWithDigits {
         for (int i = 0; i < listOfDigits.size(); i++) {
             resultOfMultiplication += Math.pow(listOfDigits.get(i), p + i);
         }
+        StringBuffer stringBuffer = new StringBuffer("jdsajd");
+
+
+        stringBuffer.append("s");
         return (double) resultOfMultiplication / n % 1 == 0 ? resultOfMultiplication / n : -1;
     }
 }
